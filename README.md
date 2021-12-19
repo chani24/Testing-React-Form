@@ -1,3 +1,8 @@
-# nextjs-5lnap2
+# Writing tests for react form (Tutorial)
 
-[Edit on StackBlitz ⚡️](https://stackblitz.com/edit/nextjs-5lnap2)
+
+# Development
+-npm run dev
+
+# Test in watch mode
+-npm test a

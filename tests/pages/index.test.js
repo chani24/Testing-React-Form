@@ -25,7 +25,7 @@ import Index from '../../pages/index';
 ];
 describe('Simple working form', () => {
   it('Should render all form inputs', () => {
-  const { getByLabelText } = render(
+  render(
       <Index />
   );
 
@@ -39,7 +39,7 @@ describe('Simple working form', () => {
 });
 
 it('Should render submit button', async () => {
-  const { getByRole } = render(
+  render(
      <Index />,
   );
 
@@ -51,7 +51,7 @@ it('Should render submit button', async () => {
 });
 
 it('Should submit when inputs are filled and submit button clicked', async () => {
-  const { getByLabelText } = render(
+  render(
      <Index />,
   );
 

@@ -59,7 +59,7 @@ const RegisterPage = () => {
         })}
 
               
-              <button variant="light" onClick={registerUser}>
+              <button onClick={registerUser}>
                 {isLoading ? 'Loading...' : 'Create account'}
               </button>
             </form>
